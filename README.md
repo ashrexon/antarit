@@ -1,6 +1,12 @@
-# Antarit
+# Antarit (अंतरित)
 
-Antarit is a CLI-based security scanner focused on detecting exposed SaaS API keys, tokens, and secrets in source code, configuration, and git repositories. It favors a clean, modular architecture to make adding new providers, outputs, and validation strategies straightforward.
+Antarit is an open-source, CLI-based security scanner designed to detect exposed SaaS API keys, tokens, and secrets across source code, configuration files, and Git repositories.
+
+It is built to be flexible and extensible, allowing individuals and organizations to customize detection logic for their own security needs.
+
+Mission: strengthen the security community by making secret exposure detection accessible, transparent, and continuously improving.
+
+Keep learning. Keep hacking.
 
 ## Features
 - Provider-specific detectors for cloud (AWS, GCP, Azure), CI/CD (GitHub, GitLab, Bitbucket, CircleCI, Travis CI, Jenkins), SaaS (Slack, Twilio, SendGrid, Mailgun, Stripe, PayPal, Razorpay, Firebase, Supabase), AI APIs (OpenAI, Google AI, Gemini), and data stores (PostgreSQL, MongoDB, MySQL, Redis, Elasticsearch).
