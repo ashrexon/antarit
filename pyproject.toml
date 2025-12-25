@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "antarit"
+version = "0.1.0"
+description = "CLI-based security scanner for exposed SaaS secrets"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Yash Shendge", email = "hello@yashshendge.com" }]
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+antarit = "antarit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["antarit"]
